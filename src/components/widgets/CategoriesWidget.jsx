@@ -13,7 +13,7 @@ const CategoriesWidget = () => {
                 <div className="widget-categories-menu">
                     <ul>
                         {CategoriesWidgetData.categoriesData.map(category =>
-                            <li key={category.id}><Link href={{ javascript: void (0) }} onClick={handlePreventClick}>{category.title}<span><i className={category.icon}></i></span></Link></li>
+                            <li key={category.id}><Link href={{ javascript: void (0) }} onClick={handlePreventClick}>{category.title}<span><i className={category.icon}/></span></Link></li>
                         )}
                     </ul>
                 </div>

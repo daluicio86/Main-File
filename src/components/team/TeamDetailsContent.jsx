@@ -101,7 +101,7 @@ const TeamDetailsContent = ({ teamInfo }) => {
                                     <h4>Leave A Comment</h4>
                                 </div>
                                 <ContactFormV1 />
-                                <div id="status"></div>
+                                <div id="status"/>
                             </div>
                         </div>
                     </div>

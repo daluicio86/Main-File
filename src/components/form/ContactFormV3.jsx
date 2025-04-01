@@ -2,7 +2,7 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 
-const ContactFormV2 = () => {
+const ContactFormV3 = () => {
 
     const handleMessage = (event) => {
         event.preventDefault()
@@ -16,42 +16,32 @@ const ContactFormV2 = () => {
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
                         <div className="form-box">
-                            <input type="text" name="name" placeholder="First Name" autoComplete='off' required />
+                            <input type="text" name="name" placeholder="Nombre" autoComplete='off' required />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="form-box">
-                            <input type="text" name="name" placeholder="Last Name" autoComplete='off' required />
+                            <input type="text" name="name" placeholder="Apellido" autoComplete='off' required />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="form-box">
-                            <input type="number" name="phone" className='no-arrows' placeholder="Phone" autoComplete='off' required />
+                            <input type="number" name="phone" className='no-arrows' placeholder="Teléfono/Celular" autoComplete='off' required />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <div className="form-box">
-                            <input type="email" name="email" placeholder="Email Address" autoComplete='off' required />
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6">
-                        <div className="form-box">
-                            <input type="text" name="subject" placeholder="Subject" autoComplete='off' required />
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6">
-                        <div className="form-box">
-                            <input type="text" name="website" placeholder="Website" autoComplete='off' required />
+                            <input type="email" name="email" placeholder="Correo-E" autoComplete='off' required />
                         </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
                         <div className="form-box">
-                            <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Comment" autoComplete='off' required></textarea>
+                            <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Mensaje" autoComplete='off' required/>
                         </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
                         <div className="form-box-button inner">
-                            <button type="Submit">Send Message</button>
+                            <button type="Submit">Enviar solicitud</button>
                         </div>
                     </div>
                 </div>
@@ -61,4 +51,4 @@ const ContactFormV2 = () => {
     );
 };
 
-export default ContactFormV2;
+export default ContactFormV3;

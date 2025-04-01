@@ -15,7 +15,7 @@ const FaqVideo = () => {
                 <div className="video-icon style-two d-none d-lg-block">
                     <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="BS4TUd7FJSg" onClose={() => setOpen(false)} />
                     <Link href={{ javascript: void (0) }} scroll={false} className="video-vemo-icon venobox vbox-item" onClick={() => setOpen(true)}>
-                        <i className="bi bi-play"></i>
+                        <i className="bi bi-play"/>
                     </Link>
                 </div>
                 <div className="faq-single-box animate__animated animate__slideInUp">
@@ -25,8 +25,8 @@ const FaqVideo = () => {
                         </div>
                         <div className="faq-title">
                             <h4>We Have Many Happy Clients Allover World Wide</h4>
-                            <span><i className="bi bi-chevron-double-right"></i> Award Wining Agency</span>
-                            <span><i className="bi bi-chevron-double-right"></i> Highest Success Rates</span>
+                            <span><i className="bi bi-chevron-double-right"/> Award Wining Agency</span>
+                            <span><i className="bi bi-chevron-double-right"/> Highest Success Rates</span>
                         </div>
                     </div>
                 </div>

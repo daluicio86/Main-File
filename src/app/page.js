@@ -1,7 +1,7 @@
 import Home from '@/src/app/home/page'
 
 export const metadata = {
-  title: "Home - Euildint Construction Building NextJS Template"
+  title: "Cursos y Diplomados en Ecuador Educación Continua Constructorespositivos"
 }
 
 const HomePage = () => {

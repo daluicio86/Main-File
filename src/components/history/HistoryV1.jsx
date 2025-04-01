@@ -33,7 +33,7 @@ const HistoryV1 = () => {
                                 <div className="history-content">
                                     <h4><Link href="#" onClick={handleSmoothScroll}>We Started From 1999</Link></h4>
                                     <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. at euis mod dapibus to do.</p>
-                                    <Link href="#" onClick={handleSmoothScroll}>Discover More <i className="bi bi-arrow-right"></i></Link>
+                                    <Link href="#" onClick={handleSmoothScroll}>Discover More <i className="bi bi-arrow-right"/></Link>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const HistoryV1 = () => {
                                             <h4><Link href="#" onClick={handleSmoothScroll}>Our Goal is To Make The Future Work Easier</Link></h4>
                                         </div>
                                         <div className="history-icon">
-                                            <Link href="#" onClick={handleSmoothScroll}><i className="bi bi-arrow-right"></i></Link>
+                                            <Link href="#" onClick={handleSmoothScroll}><i className="bi bi-arrow-right"/></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ const HistoryV1 = () => {
                                         <div className="history-content">
                                             <h4><Link href="#" onClick={handleSmoothScroll}>We Started From 1999</Link></h4>
                                             <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. at euis mod dapibus to do.</p>
-                                            <Link href="#" onClick={handleSmoothScroll}>Discover More <i className="bi bi-arrow-right"></i></Link>
+                                            <Link href="#" onClick={handleSmoothScroll}>Discover More <i className="bi bi-arrow-right"/></Link>
                                         </div>
                                     </div>
                                 </div>

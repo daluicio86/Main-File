@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const SinglePriceV1 = ({ plan }) => {
+const SinglePartnerV1 = ({ plan }) => {
     const { animation, title, priceCurrency, price, listIcon, activeClass, list1, list2, list3, list4, list5, btnText, listIcon2, priceType } = plan
 
     return (
@@ -30,4 +30,4 @@ const SinglePriceV1 = ({ plan }) => {
     );
 };
 
-export default SinglePriceV1;
+export default SinglePartnerV1;

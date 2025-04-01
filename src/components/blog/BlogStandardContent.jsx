@@ -47,7 +47,7 @@ const BlogStandardContent = () => {
                                 <div className="col-lg-12">
                                     <div className="blog-quote-box mb-40">
                                         <div className="blog-quote-conent">
-                                            <i className="fas fa-quote-right"></i>
+                                            <i className="fas fa-quote-right"/>
                                             <p>{`Tosser argy-bargy mush loo at public school Elizabeth up the duff buggered chinwag on your bike mate don’t get shirty with me super, Jeffrey bobby Richard cheesed off spend a penny a load of old tosh blag horseTosser argy-bargy mush loo at public school Elizabeth up the duff buggered chinwag on your bike mate don’t get`}</p>
                                             <h4>Silvester Scot</h4>
                                         </div>
@@ -61,7 +61,7 @@ const BlogStandardContent = () => {
                                                 <div className="blog-video-icon inline-block">
                                                     <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="BS4TUd7FJSg" onClose={() => setOpen(false)} />
                                                     <Link href={{ javascript: void (0) }} scroll={false} className="video-vemo-icon venobox vbox-item" onClick={() => setOpen(true)}>
-                                                        <i className="bi bi-play-fill"></i>
+                                                        <i className="bi bi-play-fill"/>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -76,7 +76,7 @@ const BlogStandardContent = () => {
                                             <p>Why Roofing are factmake 17 Reason EasierForesee the pain & trouble that are bounds too ensue equalidea off denouncing pleasures and praising pain was borncomplete account and expound the actual teachings the great the master-builder of human happiness. In a free hour...</p>
                                         </div>
                                         <div className="eulding-btn standard">
-                                            <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"></i></Link>
+                                            <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"/></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ const BlogStandardContent = () => {
                                             <p>Why Roofing are factmake 17 Reason EasierForesee the pain & trouble that are bounds too ensue equalidea off denouncing pleasures and praising pain was borncomplete account and expound the actual teachings the great the master-builder of human happiness. In a free hour...</p>
                                         </div>
                                         <div className="eulding-btn standard">
-                                            <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"></i></Link>
+                                            <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"/></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -122,9 +122,9 @@ const BlogStandardContent = () => {
                                                 </Slider>
                                                 <div className="blog-standard-nav">
                                                     <button className="nav-prev" onClick={handlePrevious}>
-                                                        <i className="bi bi-chevron-left"></i></button>
+                                                        <i className="bi bi-chevron-left"/></button>
                                                     <button className="nav-next" onClick={handleNext}>
-                                                        <i className="bi bi-chevron-right"></i>
+                                                        <i className="bi bi-chevron-right"/>
                                                     </button>
                                                 </div>
                                             </div>
@@ -139,7 +139,7 @@ const BlogStandardContent = () => {
                                             <p>Why Roofing are factmake 17 Reason EasierForesee the pain & trouble that are bounds too ensue equalidea off denouncing pleasures and praising pain was borncomplete account and expound the actual teachings the great the master-builder of human happiness. In a free hour...</p>
                                         </div>
                                         <div className="eulding-btn standard">
-                                            <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"></i></Link>
+                                            <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"/></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@ const BlogStandardContent = () => {
                                         <ul>
                                             <li><Link href="#" onClick={handleSmoothScroll}>1</Link></li>
                                             <li><Link href="#" onClick={handleSmoothScroll}>2</Link></li>
-                                            <li><Link href="#" onClick={handleSmoothScroll}><i className="bi bi-chevron-double-right"></i></Link></li>
+                                            <li><Link href="#" onClick={handleSmoothScroll}><i className="bi bi-chevron-double-right"/></Link></li>
                                         </ul>
                                     </div>
                                 </div>

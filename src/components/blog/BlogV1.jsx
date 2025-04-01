@@ -7,7 +7,7 @@ import SingleBlogV1 from './SingleBlogV1';
 const BlogV1 = ({ showFull = false }) => {
 	return (
 		<>
-			<div className="blog-area animate__animated animate__slideInUp">
+			<div className="blog-area animate__animated animate__slideInUp mt-150">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-12">
@@ -16,7 +16,7 @@ const BlogV1 = ({ showFull = false }) => {
 									<Image src={sectionShape} alt="image" />
 								</div>
 								<div className="section-sub-title">
-									<h4>{BlogV1Data.subTitle}</h4>
+									<h4>Noticias recientes</h4>
 								</div>
 								<div className="section-main-title blog">
 									<h2>{BlogV1Data.title}</h2>

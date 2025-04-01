@@ -28,20 +28,20 @@ const HeaderV1 = () => {
             <div className={`header-area ${isMenuSticky ? "sticky-nav" : ""}`} id="sticky-header">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-2 col-md-6">
                             <div className="header-logo">
                                 <Link href="/"><Image src={logo} alt="logo" /></Link>
                             </div>
                         </div>
-                        <div className="col-lg-9 col-md-12">
+                        <div className="col-lg-10 col-md-12">
                             <div className="header-munu">
                                 <MainMenu />
                                 <div className="header-social">
                                     <ul>
-                                        <li><Link className="search-box-btn search-box-outer" href="#" onClick={handleSearchOpen} scroll={false}><i className="bi bi-search"></i></Link>
+                                        <li><Link className="search-box-btn search-box-outer" href="#" onClick={handleSearchOpen} scroll={false}><i className="bi bi-search"/></Link>
                                         </li>
                                         <li className="line"><Link className="navSidebar-button" href="#" onClick={handleSidebarOpen} scroll={false}><i
-                                            className="bi bi-grid-3x3-gap-fill"></i></Link></li>
+                                            className="bi bi-grid-3x3-gap-fill"/></Link></li>
                                     </ul>
                                 </div>
                             </div>

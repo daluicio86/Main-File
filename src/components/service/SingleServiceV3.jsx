@@ -21,7 +21,7 @@ const SingleServiceV3 = ({ service }) => {
                     <Image src={`/assets/images/service/${thumb}`} width={275} height={240} alt="image" />
                     <div className="service-items-icon-two">
                         <Link href={`/service-details/${id}`}>
-                            <i className={icon}></i>
+                            <i className={icon}/>
                         </Link>
                     </div>
                 </div>

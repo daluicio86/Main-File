@@ -7,7 +7,7 @@ const MainMenu = ({ toggleSubMenu }) => {
         <>
             <ul>
                 <li className='dropdown-on'>
-                    <Link href="#" onClick={toggleSubMenu} scroll={false}>Home <i className="fas fa-chevron-down"></i></Link>
+                    <Link href="#" onClick={toggleSubMenu} scroll={false}>Cursos <i className="fas fa-chevron-down"/></Link>
                     <div className="sub-menu">
                         <ul className='dropdown-menu-content'>
                             <li><Link href="/">Home One</Link></li>
@@ -17,10 +17,10 @@ const MainMenu = ({ toggleSubMenu }) => {
                     </div>
                 </li>
                 <li>
-                    <Link href="about">About</Link>
+                    <Link href="about">Diplomados</Link>
                 </li>
                 <li className='dropdown-on'>
-                    <Link href="#" onClick={toggleSubMenu} scroll={false}>Pages <i className="fas fa-chevron-down"></i></Link>
+                    <Link href="#" onClick={toggleSubMenu} scroll={false}>Aliados <i className="fas fa-chevron-down"/></Link>
                     <div className="sub-menu">
                         <ul className='dropdown-menu-content'>
                             <li><Link href="/projects">Projects</Link></li>
@@ -32,7 +32,7 @@ const MainMenu = ({ toggleSubMenu }) => {
                     </div>
                 </li>
                 <li className='dropdown-on'>
-                    <Link href="#" onClick={toggleSubMenu} scroll={false}> Service <i className="fas fa-chevron-down"></i></Link>
+                    <Link href="#" onClick={toggleSubMenu} scroll={false}> Programas In Company <i className="fas fa-chevron-down"/></Link>
                     <div className="sub-menu">
                         <ul className='dropdown-menu-content'>
                             <li><Link href="/services">Services</Link></li>
@@ -40,8 +40,8 @@ const MainMenu = ({ toggleSubMenu }) => {
                         </ul>
                     </div>
                 </li>
-                <li className='dropdown-on'>
-                    <Link href="#" onClick={toggleSubMenu} scroll={false}>Blog <i className="fas fa-chevron-down"></i></Link>
+               {/*} <li className='dropdown-on'>
+                    <Link href="#" onClick={toggleSubMenu} scroll={false}>Nosotros <i className="fas fa-chevron-down"/></Link>
                     <div className="sub-menu">
                         <ul className='dropdown-menu-content'>
                             <li><Link href="/blog-grid">Blog Grid</Link></li>
@@ -49,9 +49,12 @@ const MainMenu = ({ toggleSubMenu }) => {
                             <li><Link href="/blog-details/1">Blog Details</Link></li>
                         </ul>
                     </div>
+                </li>*/}
+                <li>
+                    <Link href="/contact">Nosotros</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/contact">Contáctanos</Link>
                 </li>
             </ul>
         </>

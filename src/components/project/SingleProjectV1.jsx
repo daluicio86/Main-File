@@ -16,7 +16,7 @@ const SingleProjectV1 = ({ project }) => {
                             <span>{subTitle}</span>
                         </div>
                         <div className="project-icon">
-                            <Link href={`/project-details/${id}`}><i className={icon}></i></Link>
+                            <Link href={`/project-details/${id}`}><i className={icon}/></Link>
                         </div>
                     </div>
                 </div>

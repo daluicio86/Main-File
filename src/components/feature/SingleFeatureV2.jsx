@@ -18,7 +18,7 @@ const SingleFeatureV2 = ({ feature }) => {
                 </div>
                 <div className="feature-text">
                     <h4><Link href={`/project-details/${id}`}>{title}</Link></h4>
-                    <Link href={`/project-details/${id}`}>{btnText}<i className={btnIcon}></i></Link>
+                    <Link href={`/project-details/${id}`}>{btnText}<i className={btnIcon}/></Link>
                 </div>
             </div>
         </>

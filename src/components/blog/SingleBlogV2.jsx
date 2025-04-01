@@ -18,8 +18,8 @@ const SingleBlogV2 = ({ blog }) => {
                             <span>{month}</span>
                         </div>
                         <div className="blog-meta-info">
-                            <span><i className={authorIcon}></i>By {author}</span>
-                            <span><i className={commentIcon}></i>Comment ({comments})</span>
+                            <span><i className={authorIcon}/>By {author}</span>
+                            <span><i className={commentIcon}/>Comment ({comments})</span>
                         </div>
                     </div>
                     <div className="blog-title style-two">
@@ -30,7 +30,7 @@ const SingleBlogV2 = ({ blog }) => {
                             <Link href={`/blog-details/${id}`}>{btnText}</Link>
                         </div>
                         <div className="blog-icon">
-                            <Link href={`/blog-details/${id}`}><i className={btnIcon2}></i></Link>
+                            <Link href={`/blog-details/${id}`}><i className={btnIcon2}/></Link>
                         </div>
                     </div>
                 </div>

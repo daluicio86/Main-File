@@ -18,7 +18,7 @@ const SingleTeamV1 = ({ team }) => {
                         </ul>
                     </div>
                     <div className="team-main-icon style-two">
-                        <Link href="#" onClick={handleSmoothScroll}><i className={icon}></i></Link>
+                        <Link href="#" onClick={handleSmoothScroll}><i className={icon}/></Link>
                     </div>
                     <div className="team-content">
                         <h4><Link href={`/team-details/${id}`}>{name}</Link></h4>

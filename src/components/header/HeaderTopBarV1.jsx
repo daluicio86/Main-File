@@ -11,8 +11,8 @@ const HeaderTopBarV1 = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
                             <div className="topbar-discription">
-                                <p># 1 building & Renovation Company of Losangle City.</p>
-                                <Link href="#" onClick={handleSmoothScroll} className='ms-1'>Get Appointment Today</Link>
+                                <p> Llama hoy mismo al: (02) 2222-222</p>
+                               {/* <Link href="#" onClick={handleSmoothScroll} className='ms-1'>Get Appointment Today</Link>*/}
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6">

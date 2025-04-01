@@ -156,9 +156,9 @@ button {
 }
 
 input:focus {
-    border-color: #F60;
-    outline-color: #F60;
-    border: 1px solid #F60;
+    border-color: #a12817;
+    outline-color: #a12817;
+    border: 1px solid #a12817;
 }
 
 input[type="search"]::-webkit-search-decoration,
@@ -169,7 +169,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 textarea:focus {
-    border-color: #F60;
+    border-color: #a12817;
     outline-color: #F602;
 }
 
@@ -181,7 +181,7 @@ hr {
 }
 
 hr.style-2 {
-    border-bottom: 1px dashed #F60;
+    border-bottom: 1px dashed #a12817;
 }
 
 hr.mp-0 {
@@ -325,7 +325,7 @@ ul {
     font-size: 16px;
     right: 20px;
     text-decoration: none;
-    background: #F60;
+    background: #a12817;
     border-radius: 50%;
     width: 50px;
     height: 50px;

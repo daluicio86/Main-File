@@ -12,26 +12,27 @@ const BannerV1 = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="slider-content animate__animated animate__slideInLeft">
-                                <div className="slider-sub-title">
-                                    <h4>Great Experience In Building</h4>
-                                </div>
+
                                 <div className="slider-main-title">
-                                    <h1>The Best Solution</h1>
-                                    <h1>Industry Business</h1>
+                                    <h1 className='shadow-text'>Cursos y Diplomados</h1>
                                 </div>
-                                <div className="slider-discripton">
-                                    <p>I have been a loyal customer of this auto parts company for years and I cannot recommend them enough. Their extensive selection of high-quality parts and accessories.of high-quality parts and</p>
+                                <div className="slider-sub-title">
+                                    <h4 className='shadow-text'>Modalidad Virtual o Precencial</h4>
+                                </div>
+                                <div className="slider-sub-title">
+                                    <h4 className='shadow-text'>Contamos con aliados estratégicos para el sector de capacitación y formación</h4>
                                 </div>
                                 <div className="eulding-btn">
-                                    <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"></i></Link>
+                                    <Link href="#" onClick={handleSmoothScroll} className='mr-5'>Nuestros Cursos <i className="bi bi-arrow-up-right-circle-fill"/></Link>
+                                    <Link href="#" onClick={handleSmoothScroll}> Ver Diplomados <i className="bi bi-arrow-up-right-circle-fill"/></Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6">
+                       {/* <div className="col-lg-6 col-md-6">
                             <div className="slider-thumb animate__animated animate__slideInRight">
                                 <Image src={sliderThumb} alt="slider-thumb" />
                             </div>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>

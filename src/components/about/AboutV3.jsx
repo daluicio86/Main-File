@@ -37,13 +37,13 @@ const AboutV3 = () => {
                                 <div className="about-list">
                                     <ul>
                                         {AboutV3Data.aboutCheckList.map(list =>
-                                            <li key={list.id}><i className="bi bi-check2-circle"></i> {list}</li>
+                                            <li key={list.id}><i className="bi bi-check2-circle"/> {list}</li>
                                         )}
                                     </ul>
                                 </div>
                                 <div className="about-bottom">
                                     <div className="eulding-btn about">
-                                        <Link href="#" onClick={handleSmoothScroll}>{AboutV3Data.btnText}<i className={AboutV3Data.btnIcon}></i></Link>
+                                        <Link href="#" onClick={handleSmoothScroll}>{AboutV3Data.btnText}<i className={AboutV3Data.btnIcon}/></Link>
                                     </div>
                                 </div>
                             </div>

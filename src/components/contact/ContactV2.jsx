@@ -5,7 +5,7 @@ import contactThumb from '@/public/assets/images/resource/contact-thumb.png'
 import contactShape from '@/public/assets/images/resource/contact-shape.png'
 import Link from 'next/link';
 
-const ContactV1 = () => {
+const ContactV2 = () => {
     return (
         <>
             <div className="contact-area animate__animated animate__slideInUp">
@@ -40,4 +40,4 @@ const ContactV1 = () => {
     );
 };
 
-export default ContactV1;
+export default ContactV2;

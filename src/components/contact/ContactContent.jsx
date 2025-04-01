@@ -12,7 +12,7 @@ const ContactContent = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="contact-single-box">
                                 <div className="contact-icon">
-                                    <i className="bi bi-telephone-x"></i>
+                                    <i className="bi bi-telephone-x"/>
                                 </div>
                                 <div className="contact-content">
                                     <h4>Phone Number</h4>
@@ -24,7 +24,7 @@ const ContactContent = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="contact-single-box">
                                 <div className="contact-icon">
-                                    <i className="bi bi-envelope-open"></i>
+                                    <i className="bi bi-envelope-open"/>
                                 </div>
                                 <div className="contact-content">
                                     <h4>E-mail</h4>
@@ -36,7 +36,7 @@ const ContactContent = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="contact-single-box two">
                                 <div className="contact-icon">
-                                    <i className="bi bi-geo-alt"></i>
+                                    <i className="bi bi-geo-alt"/>
                                 </div>
                                 <div className="contact-content">
                                     <h4>Address</h4>

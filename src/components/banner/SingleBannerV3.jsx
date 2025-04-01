@@ -25,7 +25,7 @@ const SingleBannerV3 = ({ banner, sliderNumber }) => {
                             <p>{text}</p>
                         </div>
                         <div className="eulding-btn">
-                            <Link href="#" onClick={handleSmoothScroll}>{btnText} <i className={btnIcon}></i></Link>
+                            <Link href="#" onClick={handleSmoothScroll}>{btnText} <i className={btnIcon}/></Link>
                         </div>
                     </div>
                 </div>

@@ -35,9 +35,9 @@ const BlogSlider = () => {
                     </Slider>
                     <div className="blog-slider-nav">
                         <button className="nav-prev" onClick={handlePrevious}>
-                            <i className="bi bi-chevron-left"></i> Previous</button>
+                            <i className="bi bi-chevron-left"/> Previous</button>
                         <button className="nav-next" onClick={handleNext}>
-                            Next <i className="bi bi-chevron-right"></i>
+                            Next <i className="bi bi-chevron-right"/>
                         </button>
                     </div>
                 </div>

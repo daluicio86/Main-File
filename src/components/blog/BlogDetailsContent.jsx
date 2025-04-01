@@ -35,9 +35,9 @@ const BlogDetailsContent = ({ blogInfo }) => {
                                             <h4>{title}</h4>
                                         </div>
                                         <div className="blog-details-meta">
-                                            <span><i className={authorIcon}></i>By {author}</span>
-                                            <span><i className={dateIcon}></i> {month} {date}</span>
-                                            <span><i className={commentIcon}></i> ({comments})</span>
+                                            <span><i className={authorIcon}/>By {author}</span>
+                                            <span><i className={dateIcon}/> {month} {date}</span>
+                                            <span><i className={commentIcon}/> ({comments})</span>
                                         </div>
                                         <div className="blog-details-discription">
                                             <p>{`Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var as sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown too`}</p>
@@ -53,12 +53,12 @@ const BlogDetailsContent = ({ blogInfo }) => {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="blog-details-list">
                                             <ul>
-                                                <li><i className="bi bi-check2-circle"></i> Find information and begin</li>
-                                                <li className="active"><i className="bi bi-check2-circle"></i> We provide obtaining entry</li>
-                                                <li><i className="bi bi-check2-circle"></i> Ut enim veniam, quis nostrud</li>
-                                                <li><i className="bi bi-check2-circle"></i> Apply to travel, study, work or</li>
-                                                <li><i className="bi bi-check2-circle"></i> Dolor in reprehenderit voluptate</li>
-                                                <li><i className="bi bi-check2-circle"></i> Bunt in culpa qui officia</li>
+                                                <li><i className="bi bi-check2-circle"/> Find information and begin</li>
+                                                <li className="active"><i className="bi bi-check2-circle"/> We provide obtaining entry</li>
+                                                <li><i className="bi bi-check2-circle"/> Ut enim veniam, quis nostrud</li>
+                                                <li><i className="bi bi-check2-circle"/> Apply to travel, study, work or</li>
+                                                <li><i className="bi bi-check2-circle"/> Dolor in reprehenderit voluptate</li>
+                                                <li><i className="bi bi-check2-circle"/> Bunt in culpa qui officia</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@ const BlogDetailsContent = ({ blogInfo }) => {
                                 <div className="col-lg-12">
                                     <div className="blog-quote-box">
                                         <div className="blog-quote-conent">
-                                            <i className="fas fa-quote-right"></i>
+                                            <i className="fas fa-quote-right"/>
                                             <p>{`Tosser argy-bargy mush loo at public school Elizabeth up the duff buggered chinwag on your bike mate don’t get shirty with me super, Jeffrey bobby Richard cheesed off spend a penny a load of old tosh blag horseTosser argy-bargy mush loo at public school Elizabeth up the duff buggered chinwag on your bike mate don’t get`}</p>
                                             <h4>Silvester Scot</h4>
                                         </div>

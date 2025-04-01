@@ -14,8 +14,8 @@ const SinglePopularPost = ({ blog }) => {
                 </div>
                 <div className="recent-widget-content">
                     <div className="recent-widget-meta">
-                        <span><i className={dateIcon2}></i> {month} {date}</span>
-                        <span><i className={commentIcon}></i> ({comments})</span>
+                        <span><i className={dateIcon2}/> {month} {date}</span>
+                        <span><i className={commentIcon}/> ({comments})</span>
                     </div>
                     <div className="recent-widget-title">
                         <SlicedTitle title={title} />

@@ -35,13 +35,13 @@ const HeaderV2 = ({ headerClass }) => {
                                 <div className="header-social style-two">
                                     <ul>
                                         <li className="upper">
-                                            <Link href="#" className="search-box-btn search-box-outer" scroll={false} onClick={handleSearchOpen}><i className="bi bi-search"></i></Link>
+                                            <Link href="#" className="search-box-btn search-box-outer" scroll={false} onClick={handleSearchOpen}><i className="bi bi-search"/></Link>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="header-call-section">
                                     <div className="header-call-icon">
-                                        <i className="bi bi-telephone-plus"></i>
+                                        <i className="bi bi-telephone-plus"/>
                                     </div>
                                     <div className="header-call-title">
                                         <span>Need help?  Call us: </span>

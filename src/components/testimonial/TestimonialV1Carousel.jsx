@@ -40,9 +40,9 @@ const TestimonialV1Carousel = () => {
                 </Slider >
                 <div className="testimonial-nav">
                     <button className="nav-prev" onClick={handlePrevious}>
-                        <i className="bi bi-chevron-left"></i></button>
+                        <i className="bi bi-chevron-left"/></button>
                     <button className="nav-next" onClick={handleNext}>
-                        <i className="bi bi-chevron-right"></i>
+                        <i className="bi bi-chevron-right"/>
                     </button>
                 </div>
             </div>

@@ -50,16 +50,16 @@ const ProjectDetailsContent = ({ projectInfo }) => {
 									<li>
 										<h6>Rating <span>:</span></h6>
 										<div className="project-rating">
-											<i className="bi bi-star-fill"></i>
-											<i className="bi bi-star-fill"></i>
-											<i className="bi bi-star-fill"></i>
-											<i className="bi bi-star-fill"></i>
-											<i className="bi bi-star-fill"></i>
+											<i className="bi bi-star-fill"/>
+											<i className="bi bi-star-fill"/>
+											<i className="bi bi-star-fill"/>
+											<i className="bi bi-star-fill"/>
+											<i className="bi bi-star-fill"/>
 										</div>
 									</li>
 								</ul>
 								<div className="eulding-btn">
-									<Link href="#" onClick={handleSmoothScroll} className='borderede bordered'>Read More <i className="bi bi-arrow-up-right-circle-fill"></i></Link>
+									<Link href="#" onClick={handleSmoothScroll} className='borderede bordered'>Read More <i className="bi bi-arrow-up-right-circle-fill"/></Link>
 								</div>
 							</div>
 						</div>

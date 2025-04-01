@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const SingleServiceV1 = ({ service }) => {
+const SingleCourseV1 = ({ service }) => {
     const { id, thumb, thumbIcon, title, text, btnIcon, btnText, sideTitle } = service
 
     return (
@@ -29,4 +29,4 @@ const SingleServiceV1 = ({ service }) => {
     );
 };
 
-export default SingleServiceV1;
+export default SingleCourseV1;

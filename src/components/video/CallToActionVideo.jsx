@@ -13,7 +13,7 @@ const CallToActionVideo = () => {
                 <div className="video-icon">
                     <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="BS4TUd7FJSg" onClose={() => setOpen(false)} />
                     <Link href={{ javascript: void (0) }} scroll={false} className="video-vemo-icon venobox vbox-item position-relative" onClick={() => setOpen(true)}>
-                        <i className="bi bi-play"></i>
+                        <i className="bi bi-play"/>
                     </Link>
                 </div>
                 <div className="call-do-title">

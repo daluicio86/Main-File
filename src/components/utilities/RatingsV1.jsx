@@ -8,11 +8,11 @@ const RatingsV1 = ({ ratings }) => {
         return (
             <span key={index}>
                 {index + 1 <= ratings ? (
-                    <i className="fas fa-star"></i>
+                    <i className="fas fa-star"/>
                 ) : number <= ratings ? (
-                    <i className="fas fa-star-half-alt"></i>
+                    <i className="fas fa-star-half-alt"/>
                 ) : (
-                    <i className="far fa-star"></i>
+                    <i className="far fa-star"/>
                 )}
             </span>
         )

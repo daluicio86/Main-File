@@ -11,7 +11,7 @@ const MobileMenu = ({ toggleSubMenu, isMobileSidebarOpen, openMobileSidebar, clo
             <div className={`mobile-menu-area d-block d-lg-none ${isMenuSticky ? "sticky-nav" : ""}`}>
                 <div className="header-top d-flex justify-content-between align-items-center">
                     <button onClick={openMobileSidebar}>
-                        <i className='bi bi-list'></i>
+                        <i className='bi bi-list'/>
                     </button>
                     <div className="header-logo">
                         <Link href="/"><Image src={logoMini} alt='logo' /></Link>
@@ -27,7 +27,7 @@ const MobileMenu = ({ toggleSubMenu, isMobileSidebarOpen, openMobileSidebar, clo
                         </div>
                         <div className="sidebar-icon">
                             <button onClick={closeMobileSidebar}>
-                                <i className="bi bi-x-circle"></i>
+                                <i className="bi bi-x-circle"/>
                             </button>
                         </div>
                     </div>

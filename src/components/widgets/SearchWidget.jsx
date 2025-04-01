@@ -14,7 +14,7 @@ const SearchWidget = () => {
                 <form onSubmit={handleSearch}>
                     <input type="text" name="s" placeholder="Search Here" title="Search for:" required autoComplete='off' />
                     <button type="submit" className="icons">
-                        <i className="fa fa-search"></i>
+                        <i className="fa fa-search"/>
                     </button>
                 </form>
             </div>

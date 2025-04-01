@@ -18,7 +18,7 @@ const SingleFeatureV1 = ({ feature }) => {
                         <h4><Link href="#" onClick={handleSmoothScroll}>{titleLast}</Link></h4>
                     </div>
                     <div className={`feature-icon ${featureNumber}`}>
-                        <Link href="#" onClick={handleSmoothScroll}><i className={icon}></i></Link>
+                        <Link href="#" onClick={handleSmoothScroll}><i className={icon}/></Link>
                     </div>
                 </div>
             </div>

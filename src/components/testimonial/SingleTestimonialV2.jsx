@@ -9,7 +9,7 @@ const SingleTestimonialV2 = ({ testimonial }) => {
         <>
             <div className="testi-itmes-box">
                 <div className="testi-itmes-icon">
-                    <i className={icon}></i>
+                    <i className={icon}/>
                 </div>
                 <div className="testi-items-discription">
                     <p>{text}</p>

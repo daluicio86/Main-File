@@ -5,8 +5,8 @@ const NotFoundContent = () => {
     return (
         <>
             <div className="error-page-area default-padding text-center bg-cover">
-                <div className="shape-left"></div>
-                <div className="shape-right" ></div>
+                <div className="shape-left"/>
+                <div className="shape-right" />
                 <div className="container">
                     <div className="error-box">
                         <div className="row">

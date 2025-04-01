@@ -1,34 +1,40 @@
-import Image from 'next/image';
-import React from 'react';
-import SingleProgress from './SingleProgress';
-import SingleAboutV1 from './SingleAboutV1';
-import Link from 'next/link';
-import handleSmoothScroll from '../utilities/handleSmoothScroll';
-import AboutV1Data from '../../../public/assets/jsonData/about/AboutV1Data.json'
-import AboutProgressData from '../../../public/assets/jsonData/about/AboutProgressData.json'
-import sectionShape from '@/public/assets/images/about/section-shape.png'
+import Image from "next/image";
+import React from "react";
+import SingleProgress from "./SingleProgress";
+import SingleAboutV1 from "./SingleAboutV1";
+import Link from "next/link";
+import handleSmoothScroll from "../utilities/handleSmoothScroll";
+import AboutV1Data from "../../../public/assets/jsonData/about/AboutV1Data.json";
+import AboutProgressData from "../../../public/assets/jsonData/about/AboutProgressData.json";
+import sectionShape from "@/public/assets/images/about/section-shape.png";
 
 const AboutV1Content = () => {
-    return (
-        <>
-            <div className="section-title">
-                <div className="section-shape">
+  return (
+    <>
+      <div className="section-title">
+        {/* <div className="section-shape">
                     <Image src={sectionShape} alt="image" />
-                </div>
-                <div className="section-sub-title">
-                    <h4>Superior Construction</h4>
-                </div>
-                <div className="section-main-title about">
-                    <h2>We Make Finest Architectural</h2>
-                    <h2>Design With Great Passion</h2>
-                </div>
-            </div>
-            <div className="about-content animate__animated animate__slideInUp">
-                <div className="about-discribtion">
-                    <p>Quisque dignissim enim diam, eget pulvinar ex viverra id. Nulla a lobortis lectus, id volutpat magna. Morbi consequat porttitor fermentum. Nulla vestibulum tincidunt viverra. Vestibulum accumsan</p>
-                </div>
+                </div>*/}
+        <div className="section-sub-title">
+          <h4>Constructores Positivos</h4>
+        </div>
+        <div className="section-main-title about">
+          <h2>Escuela de Educación Online y Educación Continua</h2>
+        </div>
+      </div>
+      <div className="about-content animate__animated animate__slideInUp">
+        <div className="about-discribtion">
+          <p>
+            Nuestro objetivo es ofrecer a las personas, empresas y
+            organizaciones la actualización profesional a través de programas,
+            certificaciones de formación continua y posgrados que incidan en los
+            avances científicos, tecnológicos y humanistas; formando personas
+            más justas y humanas que busquen la verdad, hagan el bien, y como
+            consecuencia, transformen la sociedad.
+          </p>
+        </div>
 
-                <div className="process-ber-plugin">
+        {/* <div className="process-ber-plugin">
                     <div className="progress-items">
                         {AboutProgressData.map(progress =>
                             <SingleProgress progress={progress} key={progress.id} />
@@ -43,11 +49,11 @@ const AboutV1Content = () => {
                     )}
                 </div>
                 <div className="eulding-btn about">
-                    <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"></i></Link>
-                </div>
-            </div>
-        </>
-    );
+                    <Link href="#" onClick={handleSmoothScroll}>Read More <i className="bi bi-arrow-up-right-circle-fill"/></Link>
+                </div>*/}
+      </div>
+    </>
+  );
 };
 
 export default AboutV1Content;

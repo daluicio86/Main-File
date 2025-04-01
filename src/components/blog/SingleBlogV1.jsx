@@ -13,8 +13,8 @@ const SingleBlogV1 = ({ blog }) => {
                         <h4><Link href={`/blog-details/${id}`}>{title}</Link></h4>
                     </div>
                     <div className="blog-meta">
-                        <span><i className={dateIcon}></i>{fullDate}</span>
-                        <span><i className={commentIcon}></i> {comments} Comment</span>
+                        <span><i className={dateIcon}/>{fullDate}</span>
+                        <span><i className={commentIcon}/> {comments} Comment</span>
                     </div>
                     <div className="blog-discription">
                         <p>{text}</p>
@@ -26,7 +26,7 @@ const SingleBlogV1 = ({ blog }) => {
                         <h4>{author}</h4>
                     </div>
                     <div className="blog-btn">
-                        <Link href={`/blog-details/${id}`}>Learn More <i className={btnIcon}></i></Link>
+                        <Link href={`/blog-details/${id}`}>Learn More <i className={btnIcon}/></Link>
                     </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@ const ScrollUpBtn = () => {
     return (
         <>
             {scrollUpButton && (
-                <button className='customScrollUp' onClick={scrollUp}><i className="fas fa-arrow-up"></i></button>
+                <button className='customScrollUp' onClick={scrollUp}><i className="fas fa-arrow-up"/></button>
             )}
         </>
     );

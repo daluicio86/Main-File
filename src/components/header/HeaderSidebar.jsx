@@ -12,7 +12,7 @@ const HeaderSidebar = ({ isSidebarOpen, handleSidebarClose }) => {
                     <div className="sidebar-widget-container">
                         <div className="widget-heading">
                             <Link href="#" className="close-side-widget" onClick={handleSidebarClose} scroll={false}>
-                                <i className="bi bi-x-lg"></i>
+                                <i className="bi bi-x-lg"/>
                             </Link>
                         </div>
                         <div className="sidebar-textwidget">
@@ -30,10 +30,10 @@ const HeaderSidebar = ({ isSidebarOpen, handleSidebarClose }) => {
                                     <div className="contact-info">
                                         <h2>Contact Info</h2>
                                         <ul className="list-style-one">
-                                            <li><i className="bi bi-geo-alt-fill"></i>6391 Elgin St. Celina, Delaware</li>
-                                            <li><i className="bi bi-telephone-fill"></i><a href="tel:+001123456789">(+001) 123-456-789</a></li>
-                                            <li><i className="bi bi-envelope"></i> <a href="mailto:info@example.com">info@example.com</a></li>
-                                            <li><i className="bi bi-alarm-fill"></i> Week Days: 08.00 to 10.00
+                                            <li><i className="bi bi-geo-alt-fill"/>6391 Elgin St. Celina, Delaware</li>
+                                            <li><i className="bi bi-telephone-fill"/><a href="tel:+001123456789">(+001) 123-456-789</a></li>
+                                            <li><i className="bi bi-envelope"/> <a href="mailto:info@example.com">info@example.com</a></li>
+                                            <li><i className="bi bi-alarm-fill"/> Week Days: 08.00 to 10.00
                                             </li>
                                         </ul>
                                     </div>

@@ -46,7 +46,7 @@ const BlogForm = () => {
                             </div>
                         </div>
                     </form>
-                    <div id="status"></div>
+                    <div id="status"/>
                 </div>
             </div>
         </>
